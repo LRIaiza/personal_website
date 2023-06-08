@@ -1,0 +1,172 @@
+<!doctype html>
+<html>
+	<head>
+		<link rel="stylesheet" href="web.css"
+		<title>Comments Page</title>
+	</head>
+	<body>
+		<p id="header">COMMENTS</p>
+		<div>
+		<ul>
+			<li><a class="homePage" href="index.html">Home</a></li>
+			<li><a class="pastPage" href="past.html">My Past</a></li>
+			<li><a class="futurePage" href="future.html">My Future</a></li>
+			<li><a class="commentsPage" href="comments.html">Comments</a></li>
+		</ul>
+		</div>
+		<p id="title"> Comments on Design </p>
+		<div class = "paragraph">
+			<p>The menu bar at the top of each page is the main source of navigation for the website. 
+				Each page also includes a footer which lists my name, university and subject I have 
+				developed this website for, as well as a button the takes the user to the top of the 
+				current page they are on. 
+			</p>
+			<p>The home page includes a brief description about me as well as a photo. The home page 
+				also includes circular buttons that when clicked will take the user to either the 
+				“My Future”, “My Past” or “Comments” page respectively.
+			</p>
+			<p>The past page includes a description of my experience and learning of IT, as well 
+				as some images and extra information on past projects I have been involved in.
+			</p>
+			<p>The future page consists of a brief discussion of possible career paths I am interested 
+				in looking into after graduation.
+			</p>
+			<p>Finally, the comments page contains information on the overall and internal structure and 
+				workings of my website, as well as an explanation on aesthetic choices and accessibility 
+				features that have been included.
+			</p>
+		</div>
+		<img src="diagram.jpg" id="diagram" alt = "DiagramOfWebsite">
+		<br></br>
+		<p class = "subheading"> Sturcture of Website</p>
+		<p class = "smallheading"> HTML Sturcture</p>
+		<div class = "paragraph">
+			<p>
+			Each page consists of a HTML header, footer, menu bar and text content. The header is separated from 
+			the rest of the content using the header tag, as well as a class selector so that the CSS formatting 
+			can remain consistent across multiple pages. Text content on each page is separated through div 
+			tags so that subheadings and paragraph text is separated on the page. The class tags for CSS styling 
+			are stored in these div tags so that the subheading and paragraph text can be styled accordingly. 
+			The footer, like the header is structured on the page through the HTML footer tag that separates 
+			the footer content to the bottom of the page. The menu bar is separated through a set of div tags 
+			in combination with the unordered list, list and a tags. The html table was also seperated from other 
+			elements on the page through the use of the table tag and its subequent tr and td tags, so that CSS 
+			tags could then be added to each section of the table to customise it. 
+			</p>
+		</div>
+		<p class = "smallheading"> CSS Sturcture</p>
+		<div class = "paragraph">
+			<p>
+				The page header used the same ID across all pages on the website to keep a consistent layout, without 
+				having separate CSS elements for each heading on the style sheet. Subheadings used a class identifier 
+				in the CSS file sheet and was used for every page except the homepage, so that the formatting would 
+				stay consistent without having to add unnecessary CSS code in the external style sheet. All 
+				paragraph text except the home page shared the same class tag, to again allow for consistent formatting 
+				across the website, with minimal CSS code needed in the external style sheet. The class tag was used for 
+				formatting paragraph text because unlike the ID tag the class would be able to affect multiple elements, 
+				which was needed as it would be formatting multiple paragraphs in the div tag. 
+			</p>
+			<p>
+				The home page used a separate ID for the subheading on that page, because while the font-style and size 
+				was the same as other pages, its position on the page itself was different and therefore needed different 
+				CSS formatting. The home page also used a different unique ID for the paragraph text as opposed to the 
+				class tag the other pages shared, because the positioning of the text was different on the homepage layout, 
+				and therefore needed different CSS. 
+			</p>
+			<p>
+				All the images CSS formatting was done through separate IDs for each image, so that they could each be sized and 
+				positioned individually. 
+			</p>
+			<p>
+				For the buttons on the home page, a combination of classes were used so that the CSS could format both the 
+				buttons as a group and individually. The HTML div tag contained a CSS class tag which was used to position 
+				all of the buttons as a group on the page, and then each button was given two classes (e.g., class = button button1). 
+				The first class was used to format what each button looked like, and was shared to ensure consistency in 
+				design between them, and the second class was used to individually establish their colour and size, as well 
+				as a hover opacity. 
+			</p>
+			<p>
+				The table used the CSS table tag to format the entire table itself, in combination with ID tags in the rows 
+				and columns of the table, so that their width and height could be adjusted to better fit the content. 
+			</p>
+			<p>
+				The menu bar was formatted through the CSS unordered list, list, and a tag in combination with separate class 
+				tags for the different pages. The unordered list tag formatted all of the page links as a single entity on the 
+				page, whilst the list tag formatted how each link was positioned on the menu bar. Then the a tag was used 
+				to format how the text for the links would be displayed on the menu bar. The separate classes for each page 
+				were used to individually style the links, as the colours upon hover were different for each page and needed 
+				separate formatting. This is also where the animation formatting was located. 
+			</p>
+			<p>
+				Finally, the footer and the span were formatted in the CSS style sheet using the CSS footer and span tags, as 
+				there was only one instance of them. However, if there were more instances of the span tag for example, a class 
+				would be given to them so that the formatting would be able to change.
+			</p>
+		</div>
+		<br></br>
+		<p class = "subheading"> Aesthetics of Website</p>
+		<div class = "paragraph">
+			<p>
+				The overall website was designed to have a clean, easy to read and navigate appeal, whilst still including some 
+				bright colours to engage the user. 
+			</p>
+			<p>
+				This was why the background of the website is white, as this amount of white space allows for users to rest their 
+				eyes to avoid strain. The text was coloured black as it contrasts very well on the white background and is easy to 
+				read. An element that provides engagement to the user is the menu bar, as it utilises an animation when the mouse 
+				hovers over the page the user is about to select. The colours for the Past, Future and Comments page are all bright 
+				but are not too light that the contrast makes it difficult to read. These engaging colours match the colours of the 
+				buttons on the home page, which also link to the separate pages to maintain design consistency. The home page link on 
+				the menu bar stays black to signify that that particular page is different from the others due to it being the centre are of 
+				the website. 
+			</p>
+			<p>
+				The website layout maintains consistency to build rhythm and unity across the pages, by using the same CSS styling for 
+				the menu bar, header, font-styles, and footer. This creates a sense of consistent graphic identity and avoids confusion 
+				from the viewer when navigating from page to page. The heading, footer and menu bar on each page has the same style and 
+				positioning, and the subheadings and paragraph text has the same font styling and size, but the position on the page 
+				differs to create difference on the website whilst still maintain design consistency. 
+			</p>
+			<p>
+				A strong and consistent visual hierarchy is maintained throughout the website, ensuring that the content is organised 
+				logically on each page. The header is the largest piece of text on the page, making it the first thing the users identify, 
+				followed by the subheadings and images. Then once looking further at the page the user will then see the menu bar, followed 
+				by the paragraph text. Visual balance is maintained through the addition of large headings to identify what 
+				the page covers, in addition to groupings of paragraph text and reasonably sized images to provide further engagement to 
+				the user. The buttons on the home page also add to engagement, as it creates visual contrast which attracts the eye. 
+			</p>
+		</div>
+		<br></br>
+		<p class = "subheading"> Accessibility of Website</p>
+		<div class = "paragraph">
+			<p>
+			Accessibility needs were considered during the creation of this website 
+			by ensuring features were in place for disabled users. For example, every 
+			image has an alt tag so that users who can’t view the image will still 
+			have access to a text description of what that image is. In addition, all 
+			fonts that were used on the website are sans serif fonts, as they are easier 
+			to read and understand than serif fonts due to the lack of decorative strokes. 
+			Also, the minimum font size used on the website is 14pt ensuring that it is 
+			clear to read for vision impaired individuals. If the user is still struggling 
+			to read any text on the website, they can enlarge the text size by pressing 
+			the Ctrl+ keys as many times as desired. 
+			</p>
+			<p>To cater to individuals with limited fine motor control or those who are 
+			unable to use a mouse, the website is easily navigated using only the keyboard. 
+			By pressing the Tab key, the user can cycle through all available buttons/links 
+			on the page, and by pressing Enter they can access any part of the website. 
+			Additionally, the arrow keys can be used to move up and down the page or the 
+			Back to Top button can be used to take the user to the start of their current page.
+			To exit the keyboard mode all the user has to do is click anywhere on the screen with the mouse. 
+			</p>
+		</div>
+		<div class = "blankSpace"></div>
+
+	<footer>
+		<hr>
+		<a class="top" href="#"> Back to Top</a>
+		<p>Webpage designed by Lily-Rose Iaiza <br></br>Web Systems - University of Technology Sydney</p>
+	</footer>
+	</body>
+</html>
+
